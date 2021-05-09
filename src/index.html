@@ -268,8 +268,25 @@
         </div>
     </section>
     <section class="contacts">
+       <div class="container">
         <div class="title">Contact Us</div>
         <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</div>
+        <form class="contacts__form">
+            <div class="contacts__form-item">
+                <input type="text" class="contacts__form-input contacts__form-input_1" placeholder="First Name" required>
+                <input type="text" class="contacts__form-input contacts__form-input_2" placeholder="Last Name" required>
+            </div>
+            <div class="contacts__form-item">
+                <input type="email" class="contacts__form-input contacts__form-input_1" placeholder="Email" required>
+                <input type="tel" class="contacts__form-input contacts__form-input_2" placeholder="Phone" required>
+            </div>
+            <textarea name="#" placeholder="Message" required maxlength="500"></textarea>
+            <div class="contacts__form-checkbox">
+                <div class="contacts__form-checkbox-subscribe">subscribe to the newsletter</div>
+                <input type="checkbox">
+            </div>
+        </form>
+       </div>
     </section>
 </body>
 </html>
